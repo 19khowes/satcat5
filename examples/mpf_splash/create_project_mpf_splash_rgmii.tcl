@@ -116,7 +116,6 @@ create_links \
          -hdl_source {../../src/vhdl/common/port_adapter.vhd} \
          -hdl_source {../../src/vhdl/common/port_rgmii.vhd} \
          -hdl_source {../../src/vhdl/common/port_serial_uart_4wire.vhd} \
-         -hdl_source {../../src/vhdl/common/scrub_placeholder.vhd} \
          -hdl_source {../../src/vhdl/common/slip_decoder.vhd} \
          -hdl_source {../../src/vhdl/common/slip_encoder.vhd} \
          -hdl_source {../../src/vhdl/common/switch_aux.vhd} \
@@ -124,6 +123,8 @@ create_links \
          -hdl_source {../../src/vhdl/common/switch_port_rx.vhd} \
          -hdl_source {../../src/vhdl/common/switch_port_tx.vhd} \
          -hdl_source {../../src/vhdl/common/switch_types.vhd} \
+         -hdl_source {../../src/vhdl/common/ptp_types.vhd} \
+         -hdl_source {../../src/vhdl/common/tcam_constants.vhd} \
          -hdl_source {../../src/vhdl/common/tcam_cache_nru2.vhd} \
          -hdl_source {../../src/vhdl/common/tcam_cache_plru.vhd} \
          -hdl_source {../../src/vhdl/common/tcam_core.vhd} \

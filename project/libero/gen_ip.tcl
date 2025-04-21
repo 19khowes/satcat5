@@ -29,7 +29,7 @@ create_and_configure_core -core_vlnv {Actel:SgCore:PF_IO:2.0.104} \
 
 # Download and create CCC wrapper IP for clkgen_rgmii named PF_CCC_C1.
 #download_core -vlnv {Actel:SgCore:PF_CCC:2.2.100} -location {www.actel-ip.com/repositories/SgCore}
-create_and_configure_core -core_vlnv {Actel:SgCore:PF_CCC:2.2.214} -component_name {PF_CCC_C1} -params {\
+create_and_configure_core -core_vlnv {Actel:SgCore:PF_CCC:2.2.220} -component_name {PF_CCC_C1} -params {\
 "DLL_CLK_0_BANKCLK_EN:false"  \
 "DLL_CLK_0_DEDICATED_EN:false"  \
 "DLL_CLK_0_FABCLK_EN:false"  \
